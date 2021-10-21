@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('scm') {
             steps {
-                git branch:'https://github.com/shreyadey16/AngAppRepo.git'
+                git branch:'master',url:'https://github.com/shreyadey16/AngAppRepo.git'
             }
         }
          stage('install') {
